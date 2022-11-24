@@ -3,13 +3,13 @@ package de.hfu;
 import java.util.Scanner;
 
 /**
- * Hello world!
- *
+ * Test class
  */
-public class App 
-{
-    public static void main( String[] args )
-    {
+public class App {
+    /**
+     * Read keyboard input and print to console in uppercase
+     */
+    public static void main(String[] args) {
 
         Scanner keyboard = new Scanner(System.in);
         System.out.println("enter text");
